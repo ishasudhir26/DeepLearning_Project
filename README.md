@@ -1,5 +1,5 @@
 # **HAND GESTURE - BASED MEDIA CONTROL SYSTEM**
-# ** USING MOBILENETV2 MODEL**
+# **USING MOBILENETV2 MODEL**
 ---
 ## **PROJECT GOAL:**
 The primary goal of your project is to enable users to control media playback (e.g., playing, pausing, adjusting volume, navigating) using hand gestures, offering a hands-free and intuitive way to interact with devices.

@@ -10,6 +10,9 @@ from tensorflow.keras.preprocessing.image import img_to_array
 import tensorflow as tf
 from tensorflow.keras import backend as K
 
+# Prevent PyAutoGUI from importing mouseinfo, which causes deployment issues
+os.environ["DISPLAY"] = ":0"  # Fallback to a dummy display
+
 # Prevent mouseinfo from being imported
 pyautogui.mouseInfo = lambda: None
 

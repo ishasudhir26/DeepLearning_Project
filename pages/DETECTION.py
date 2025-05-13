@@ -10,12 +10,6 @@ from tensorflow.keras.preprocessing.image import img_to_array
 import tensorflow as tf
 from tensorflow.keras import backend as K
 
-# Remove mouseinfo reference to prevent Streamlit deployment error
-try:
-    del pyautogui.mouseInfo
-except AttributeError:
-    pass
-
 # Set page configuration
 st.set_page_config(page_title='Gesture Control', layout='wide')
 

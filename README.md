@@ -17,5 +17,3 @@ The primary goal of your project is to enable users to control media playback (e
 ---
 
 **Dataset taken from:** https://www.kaggle.com/datasets/barnabaspeter/hand-gesture-dataset
-
-**View my Project at:**  

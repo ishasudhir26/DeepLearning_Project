@@ -10,6 +10,9 @@ from tensorflow.keras.preprocessing.image import img_to_array
 import tensorflow as tf
 from tensorflow.keras import backend as K
 
+# Prevent mouseinfo from being imported
+pyautogui.mouseInfo = lambda: None
+
 # Set page configuration
 st.set_page_config(page_title='Gesture Control', layout='wide')
 

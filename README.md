@@ -3,7 +3,7 @@
 ## **PROJECT GOAL:**
 The primary goal of your project is to enable users to control media playback (e.g., playing, pausing, adjusting volume, navigating) using hand gestures, offering a hands-free and intuitive way to interact with devices.
 ## **IMPLEMENTATION:**
-* A dataset of hand gesture images is created.
+* A dataset of hand gesture images was collected.
 * A convolutional neural network (CNN) model (MobileNetV2) is trained to recognize the different hand gestures.
 * This mainly uses transfer learning. The model being used is MobileNetV2, which is a pre-trained model. This means it has been previously trained on a large dataset (ImageNet) to recognize a wide variety of objects.
 * The trained model is integrated into a Streamlit application. The application captures video frames from a webcam. The ROI is extracted from each frame. The trained model predicts the hand gesture present in the ROI.

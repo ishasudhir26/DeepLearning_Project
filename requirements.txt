@@ -22,7 +22,11 @@ opt_einsum==3.4.0
 pandas==2.2.3
 pillow==11.2.1
 protobuf==5.29.4
-PyAutoGUI==0.9.54
+pygetwindow==0.0.9
+pymsgbox==1.0.9
+pytweening==1.0.4
+pyperclip==1.8.2
+pyscreeze==0.1.28
 requests==2.32.3
 rich==14.0.0
 setuptools==80.4.0
